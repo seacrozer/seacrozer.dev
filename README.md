@@ -1,3 +1,2 @@
-# PERSONAL WEBSITE
+# seacrozer.dev
 
-### yeah it just personal website
