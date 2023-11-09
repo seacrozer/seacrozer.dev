@@ -10,3 +10,22 @@
     padding: 3rem;
     font-family: 'Fira Code';
 }
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.countdown {
+    margin-top: 50px;
+}
+
+#countdown-container {
+    display: flex;
+    justify-content: center;
+}
+
+#countdown-container > div {
+    margin: 0 10px;
+    font-size: 2rem;
+}
