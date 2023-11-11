@@ -1,5 +1,7 @@
 const targetDate = new Date("2024-1-1 00:00:00").getTime();
 
+console.log(targetDate);
+
 const countdown = setInterval(function() {
     const currentDate = new Date().getTime();
     const timeRemaining = targetDate - currentDate;
