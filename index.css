@@ -3,6 +3,31 @@
     margin: 0;
 }
 
+.menus {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    padding: 1rem 4rem;
+    border: #000000 3px solid;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Fira Code';
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+.btn:active{
+    background-color: rgb(0, 0, 0);
+    color: #8df084;
+}
+
+
 .quotes{
     display: flex;
     justify-content: center;
@@ -18,11 +43,15 @@ body {
 
 .countdown {
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 #countdown-container {
     display: flex;
-    justify-content: center;
+    padding : 1rem;
+    margin: 2rem;
+    border: 1px black solid;
 }
 
 #countdown-container > div {
